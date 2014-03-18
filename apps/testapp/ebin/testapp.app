@@ -1,0 +1,8 @@
+{application,testapp,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,erlkafka]},
+              {mod,{testapp_app,[]}},
+              {env,[]},
+              {modules,[testapp_app,testapp_sup]}]}.
